@@ -83,7 +83,7 @@ const products = [
     name: "Kit Arduino",
     category: "Proximamente",
     price: 0,
-    image:"kit arduino.png",
+    image:"Kit arduinp.png",
     description: "Placa de desarrollo para prototipos."
   },
 
@@ -92,7 +92,7 @@ const products = [
     name: "Jumper",
     category: "Proximamente",
     price: 0,
-    image:"jumpers.png",
+    image:"Jumpers.png",
     description: "Cables de conexión ideales para protoboards y proyectos electrónicos con Arduino."
   }
 
