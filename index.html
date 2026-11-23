@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voltec | Componentes electrónicos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#"><span class="logo-mark">v</span> Voltec</a>
+    <div class="search">
+      <input id="searchInput" type="search" placeholder="Buscar componentes..." aria-label="Buscar productos">
+      <button id="searchBtn" aria-label="Buscar">⌕</button>
+    </div>
+    <button class="cart-button" id="cartToggle">🛒 Carrito <span id="cartCount">0</span></button>
+  </header>
+
+  <nav class="nav">
+    <a href="#" data-category="Todos">Todos</a>
+    <a href="#" data-category="Capacitores">Capacitores</a>
+    <a href="#" data-category="Semiconductores">Semiconductores</a>
+    <a href="#" data-category="Proximamente">Proximamente </a>
+  
+    
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">COMPONENTES PARA TUS PROYECTOS</p>
+        <h1>La electrónica<br>comienza acá.</h1>
+        <p>Encontrá componentes, herramientas y materiales para llevar tus ideas a la práctica.</p>
+        <a href="#catalogo" class="hero-cta">Ver productos <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="circuit-circle"><span>V</span><i></i><b></b></div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <h2>Explorá categorías</h2>
+      <div class="category-grid">
+       
+<button class="category-card" data-category="Capacitores"><span>▥</span>Capacitores</button>
+<button class="category-card" data-category="Semiconductores"><span>◈</span>Semiconductores</button>
+<button class="category-card" data-category="Conectores y terminales "><span>🔌</span>  Conectores y terminales</button>
+<button class="category-card" data-category="Proximamente"><span>⏳</span>Proximamente</button>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">NUESTRO CATÁLOGO</p><h2>Productos destacados</h2></div>
+        <select id="sortSelect" aria-label="Ordenar productos">
+          <option value="default">Ordenar por</option>
+          <option value="low">Precio: menor a mayor</option>
+          <option value="high">Precio: mayor a menor</option>
+        </select>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-message" id="emptyMessage" hidden>No se encontraron productos.</p>
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cartPanel" aria-label="Carrito de compras">
+    <div class="cart-header"><h2>Tu carrito</h2><button id="closeCart" aria-label="Cerrar carrito">✕</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer"><p>Total: <strong id="cartTotal">$0</strong></p><button class="checkout" id="checkoutBtn">Finalizar compra</button></div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <footer><p>© 2026 VOLTEC · Componentes electrónicos</p><p>voltec.electrónica</p></footer>
+  <script src="script.js"></script>
+
+
+
+  
+</body>
+</html>
