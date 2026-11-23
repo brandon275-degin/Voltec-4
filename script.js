@@ -83,7 +83,7 @@ const products = [
     name: "Kit Arduino",
     category: "Proximamente",
     price: 0,
-    image:"Kit arduinp.png",
+    image:"Kit arduino.png",
     description: "Placa de desarrollo para prototipos."
   },
 
