@@ -92,7 +92,7 @@ const products = [
     name: "Jumper",
     category: "Proximamente",
     price: 0,
-    image:"Jumpers.png",
+    image:"Jumper.png",
     description: "Cables de conexión ideales para protoboards y proyectos electrónicos con Arduino."
   }
 
