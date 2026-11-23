@@ -10,7 +10,7 @@ const products = [
     name: "Capacitor electrolítico 1000 µF",
     category: "Capacitores",
     price: 1500,
-    image:"capacitor1000uf.png",
+    image:"capacitor 25v.png",
     description: "25 V, ideal para filtrado de fuentes."
   },
 
