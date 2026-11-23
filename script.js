@@ -29,7 +29,7 @@ const products = [
     name: "Capacitor cerámico 100 nF",
     category: "Capacitores",
     price: 500,
-    image: "capacitor.png",
+    image: "Capacitor.png",
     description: "Capacitor para filtrado."
   },
 
